@@ -580,9 +580,9 @@ function cityToLatLongApi()
     var city1=document.getElementById("city1").value.trim();
     var city2=document.getElementById("city2").value.trim();
     
-    var url="http://api.openweathermap.org/geo/1.0/direct?q="+city1+"&limit=5&appid="+apiKey
+    var url="https://api.openweathermap.org/geo/1.0/direct?q="+city1+"&limit=5&appid="+apiKey
 fetch(url).then(r=>r.json()).then(x=>getLatLongCity1(x))
-url="http://api.openweathermap.org/geo/1.0/direct?q="+city2+"&limit=5&appid="+apiKey
+url="https://api.openweathermap.org/geo/1.0/direct?q="+city2+"&limit=5&appid="+apiKey
 fetch(url).then(r=>r.json()).then(x=>getLatLongCity2(x))
 
 }
