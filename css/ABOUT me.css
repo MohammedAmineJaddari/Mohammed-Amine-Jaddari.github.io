@@ -365,7 +365,7 @@
     
 }
 
-@media (min-width: 428px) {
+@media (max-width: 844px) {
   .sidebar li .tooltip{
     display: none;
     
