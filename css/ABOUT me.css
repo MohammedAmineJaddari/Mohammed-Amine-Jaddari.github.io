@@ -309,12 +309,8 @@
   font-weight: 500;
   margin: 18px
 }
-@media (max-width: 420px) {
-  .sidebar li .tooltip{
-    display: none;
-    
-}
-}
+
+
 .about{
     width: 100%;
     height: 100vh;
@@ -370,17 +366,21 @@
     
 }
 
+@media (max-width: 428px) {
+  .sidebar li .tooltip{
+    display: none;
+    
 
-@media screen and (max-width : 1180px) {
+
     .about{
         width: 100%;
         height: auto;
         padding: 70px 0px;
     }
     
-}
 
-@media screen and (max-width:650px) {
+
+
     .about .content img{
         margin-bottom: 40px;
         margin-left: 15%;
