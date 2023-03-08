@@ -510,7 +510,7 @@ div .dot {
   left: 812px;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 428px) {
   .sidebar li .tooltip{
     display: none;
   }
