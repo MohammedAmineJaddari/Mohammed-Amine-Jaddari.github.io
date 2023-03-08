@@ -311,7 +311,7 @@
 }
 
 .about{
-    width: 100%;
+    width: 110%;
     height: 100vh;
     background-color: #1b202c;
     display: flex;
@@ -374,7 +374,7 @@
 
     .about{
         width: 100%;
-        height: auto;
+        height: 100%;
         padding: 70px 0px;
     }
     
@@ -388,21 +388,31 @@
     .text h1{
         font-size: 60px;
         margin-bottom: 25px;
-        position: absolute;
-        left: 20%;
-        top: 45%;
+        position: relative;
+        left: 61px;
+        top: -91px;
+        width: 85%;
     }
     .text h5{
         width: 90%;
         margin:  0px 60px;
+        position: relative;
+        top: -130px;
+        left: 0px;
 
     }
     .text p{
         width: 90%;
        margin: 0 62px;
+       position: relative;
+       top: -135px;
+       left: 0px;
     
 }
     .icons{
-       margin-left: 10.1%;
+       margin-left: 10.17%;
+       position: relative;
+       top: -86px;
+       left: 21px;
     }
 }
